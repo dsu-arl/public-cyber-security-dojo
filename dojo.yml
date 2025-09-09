@@ -1,6 +1,6 @@
-id: dsu-csc-134
-name: DSU CSC-134
-type: class
+id: cyber-sec
+name: Cyber Security
+type: 
 modules: 
   - id: encoding
     name: Encoding
