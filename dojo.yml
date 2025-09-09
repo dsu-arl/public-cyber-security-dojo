@@ -1,6 +1,5 @@
 id: cyber-sec
 name: Cyber Security
-type: 
 modules: 
   - id: encoding
     name: Encoding
