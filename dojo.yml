@@ -1,0 +1,101 @@
+id: dsu-csc-134
+name: DSU CSC-134
+type: class
+modules: 
+  - id: encoding
+    name: Encoding
+    description: This module will teach you some basic encoding algorithms!
+
+    challenges:
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-encryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-decryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-scripting
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: caesar-cipher-brute-force
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: substitution-cipher-encryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: substitution-cipher-decryption
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: base64-encoding
+      - import:
+          dojo: cyber-security~59368da7
+          module: encoding
+          challenge: base64-decoding
+
+  - import:
+      dojo: cyber-security~59368da7
+      module: osint
+
+  - import:
+      dojo: cyber-security~59368da7
+      module: forensics
+
+
+  - id: web
+    name: Web Hacking
+    description: This module is all about hacking websites!
+    challenges:
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: pale-red-horse-squad
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: swiss-army-button
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: get-to-da-choppa
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: am-i-admin
+      - import:
+          dojo: cyber-security~59368da7
+          module: web
+          challenge: am-i-admin-2
+
+  - id: pwn
+    name: PWN
+    description: This dojo contains several challenges focused on topics common to reverse engineering. Some of these challenges will be modified to work with fewer steps, while others will (hopefully) challenge your skills. Good luck!
+    challenges:
+      - import:
+          dojo: cyber-security~59368da7
+          module: pwn
+          challenge: buffer-overflow
+      - import:
+          dojo: cyber-security~59368da7
+          module: pwn
+          challenge: magic-number
+      - import:
+          dojo: cyber-security~59368da7
+          module: pwn
+          challenge: reverse-password-plaintext
+      - import:
+          dojo: cyber-security~59368da7
+          module: pwn
+          challenge: reverse-password-backward
+      - import:
+          dojo: cyber-security~59368da7
+          module: pwn
+          challenge: reverse-password-cipher
+
